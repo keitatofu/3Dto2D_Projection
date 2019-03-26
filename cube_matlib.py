@@ -17,16 +17,6 @@ print(load)
 fig = plt.figure()
 ax = plt.axes(xlim =(-1,1),ylim =(-1,1))
 
-# rotationZ = np.array([ [np.cos(angle),-np.sin(angle),0], 
-# 					    [np.sin(angle),np.cos(angle),0], 
-# 					    [0,0,1] ])
-# rotationY = np.array([ [np.cos(angle),0,np.sin(angle)],
-# 					   	[0,1,0],
-# 					   	[-np.sin(angle),0,np.cos(angle)] ])
-# rotationX = np.array([ [1,0,0],
-# 					   	[0,np.cos(angle),-np.sin(angle)],
-# 					   	[0,np.sin(angle),np.cos(angle)] ])
-
 #	Declared to allow for x and y axis only
 projection = np.array([ [1,0,0], [0,1,0] ])
 
@@ -47,8 +37,17 @@ for x in load:
 		#projected2d = np.dot(projection,x)	-With no rotations
 	ax.plot(projected2d[0],projected2d[1],c = "blue",marker = "o")[0]
 
-#anim = FuncAnimation(fig,animate,interval =200,frames = 30)
-
 plt.grid()
 #plt.draw()
 plt.show()
+
+
+# rotationZ = np.array([ [np.cos(angle),-np.sin(angle),0], 
+# 					    [np.sin(angle),np.cos(angle),0], 
+# 					    [0,0,1] ])
+# rotationY = np.array([ [np.cos(angle),0,np.sin(angle)],
+# 					   	[0,1,0],
+# 					   	[-np.sin(angle),0,np.cos(angle)] ])
+# rotationX = np.array([ [1,0,0],
+# 					   	[0,np.cos(angle),-np.sin(angle)],
+# 					   	[0,np.sin(angle),np.cos(angle)] ])
