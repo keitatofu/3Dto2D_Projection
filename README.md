@@ -1,3 +1,5 @@
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
 # 3Dto2D_Projection
 Create a 3D projected cube in to 2D Cartesian Plane and Animate it using the matplotlib built in python library.
 
@@ -15,3 +17,9 @@ https://thecodingtrain.com/CodingChallenges/112-3d-rendering  (Inspiration and w
 https://en.wikipedia.org/wiki/3D_projection.
 
 http://matrixmultiplication.xyz/  (Visualized matrix multiplication).
+
+
+
+<a href="https://dev.to/okroid">
+  <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="roid's DEV Profile" height="30" width="30">
+</a>
