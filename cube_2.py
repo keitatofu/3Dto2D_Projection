@@ -61,6 +61,13 @@ anim = FuncAnimation(fig, animate, interval=200, frames=len(angles))
 plt.draw()
 plt.show()
 
+'''
+The FuncAnimation constructor takes a callable function (in my case variable called animate) which 
+gets the current frame number as an argument (here i) and updates the plot.
+This means, all of the intermediate points should be stored in an array (frames) 
+and then later access them (possible to also compute the projection on the fly,but not recommended).
+The animation will then loop through the frames and apply the function to every frame.
+'''
 
 #   Dear Programmers,
 #   This code used to be freshly written by me
