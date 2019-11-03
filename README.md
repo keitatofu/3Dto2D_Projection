@@ -1,12 +1,9 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-# 3Dto2D_Projection
+# Cube Projection
 Create a 3D projected cube in to 2D Cartesian Plane and Animate it using the matplotlib built in python library.
 
-The FuncAnimation constructor takes a callable function (in my case variable called animate) which gets the current frame number as an argument (here i) and updates the plot. This means, all your intermediate points should be stored in an array (frames) and then later access those (possible to also compute the projection on the fly,but not recommended). The animation will then loop through the frames and apply the function to every frame. 
-
-
-Sources used:
+#### References:
 
 https://en.wikipedia.org/wiki/Rotation_matrix   (Equation for Rotation Matrix).
 
@@ -19,6 +16,7 @@ https://en.wikipedia.org/wiki/3D_projection.
 http://matrixmultiplication.xyz/  (Visualized matrix multiplication).
 
 
+![picture alt](https://github.com/roidsaja/cubeprojection/blob/master/cube_animation.gif)
 
 <a href="https://dev.to/okroid">
   <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="roid's DEV Profile" height="30" width="30">
