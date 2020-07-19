@@ -1,3 +1,11 @@
+'''
+Title: cube_2.py
+Author: Roid Maulana
+Description: Demonstrating Python Libraries to produce vertices of a cube with rotational animation
+             Feel free to improve by forking this repository and submitting pull requests if needed. Happy hacking :)
+License:  GNU GENERAL PUBLIC LICENSE 3.0
+'''
+
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
@@ -68,10 +76,3 @@ This means, all of the intermediate points should be stored in an array (frames)
 and then later access them (possible to also compute the projection on the fly,but not recommended).
 The animation will then loop through the frames and apply the function to every frame.
 '''
-
-#   Dear Programmers,
-#   This code used to be freshly written by me
-#   But now only God knows why and what is happening
-#   If you see this, tell others about the time I sacrifised
-#   Just to do this,    Time taken :    1 whole week
-#   Yours Sincere.
